@@ -1,4 +1,4 @@
-# Web Spider
+# 
 
 [![Build Status](https://travis-ci.org/GuozhuHe/webspider.svg)](https://travis-ci.org/GuozhuHe/webspider)
 [![codecov](https://codecov.io/gh/GuozhuHe/webspider/branch/master/graph/badge.svg)](https://codecov.io/gh/GuozhuHe/webspider)
@@ -11,12 +11,14 @@
 Version | 1.0.1
 WebSite | http://www.jobinfo.cc:8000/
 Source |  https://github.com/GuozhuHe/webspider
-Keywords |  `Python3`, `Tornado`, `Celery`, `Spider`, `Requests`
+Keywords |  `Python3`, `Tornado`, `Celery`, `Requests`, `Job`
 
+## 关于本网站
+编写这个项目的初衷是本人在找工作时，一直想对所求职位的薪水待遇、学历要求等等的方面有一个全面的了解，但苦于没有客观直接的信息，所以就自己动手编写了这个网站，网站的数据采集自某个专注于互联网招聘的平台，定期更新，真实有效。本网站从多维度展示互联网相关工作岗位的情况，包括每种岗位薪资范围、学历要求、工作经验要求等等，以饼图、线型图等多种方式呈现。希望能在找工作的时候对你有所帮助。
 
-## 关于本系统
+## 项目简介
 
-本系统是一个主要使用`python3`, `celery`和`requests`来爬取职位数据的爬虫，实现了定时任务，出错重试，日志记录，自动更改`Cookies`等的功能，并使用`ECharts` + `Bootstrap` 来构建前端页面，来展示爬取到的数据。
+本项目使用的编程语言是`python3`，数据库用的是`MySQL`, 主要用到的库是`celery`和`requests`，并实现了定时任务，出错重试，日志记录，自动更改`Cookies`等的功能，使用`ECharts` + `Bootstrap` 来构建前端页面。
 
 ## 展示页面
 
